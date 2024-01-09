@@ -1,0 +1,53 @@
+html, body {
+ height: 100%;
+ margin: 0;
+}
+
+.container {
+ display: flex;
+ height: 100%;
+}
+
+.container .sub {
+ width: 33.33%;
+}
+
+td {
+   border: 1px solid white;
+   text-align: center;
+}
+
+.center { 
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+
+#table { 
+   margin-top: 1em;
+}
+
+h3 { 
+   margin-top: 1em;
+   text-align: center;
+}
+
+#element_table { 
+   margin-top: .4em;
+}
+
+button {
+   border: none;
+   background-color: #F5F5F5; /* Slightly White */
+   color: #000000; /* Black */
+}
+
+p { 
+   text-align: center;
+}
+
+.sub { 
+   margin-left: auto;
+   margin-right: auto;
+   justify-content: center;
+}

@@ -1,0 +1,56 @@
+<html>
+    <header>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </header>
+
+    <body>
+        <div class="container"> 
+            <div class="seasons sub">
+                <h3> SEASONS </h3>
+                <div style="width: 5em; text-align: justify;  margin-top: 4em;  display: flex; text-transform: uppercase; " class="center">
+                    <div>
+                        <b> <p id="spring" style="color: green;"> spring </p> </b>
+                        <p id="spring-pts"> 0 </p>
+                        <b> <p id="summer"> summer </b> </b>
+                        <p id="summer-pts"> 0 </p>
+                        <b> <p id="autumn"> autumn </p> </b>
+                        <p id="autumn-pts"> 0 </p>
+                        <b> <p id="winter"> winter </p> </b>
+                        <p id="winter-pts"> 0 </p>
+                        <b> <p> total </p> </b>
+                        <p id="total"> 0 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="game sub">        
+                <h3 class="center" id="elapsed_time"> 0 TIME ELAPSED </h3>
+                <table id="table" class="center"></table>
+                <div class="center">
+                    <button id="rotate-btn" style="margin-top: 0.4em;"> ROTATE </button>
+                    <button id="flip-btn" style="margin-top: 0.4em;"> FLIP </button>
+                    <table id="element_table" class="center"></table>
+                    <p id="unit_time" style="margin-top: .4em; ">  0 TIME UNIT </p> 
+                </div>
+            </div>
+            <div class="missions sub">
+                <h3> MISSIONS </h3>
+                <div style="width: 13em; text-align: justify; margin-top: 4em; display: flex; text-transform: uppercase; " class="center">
+                    <div>
+                        <b> <p id="sleepyvalley" style="color: green;"> Sleepy valley </p> </b>
+                        <p id="sleepyvalley-pts">0 </p>
+                        <b> <p id="wateringpotatoes" style="color: green;"> Watering potatoes </p> </b>
+                        <p id="wateringpotatoes-pts">0 </p>
+                        <b> <p id="edgeofforest"> Edge of the forest </p> </b>
+                        <p id="edgeofforest-pts">0 </p>
+                        <b> <p id="borderland"> Borderlands </p> </b>
+                        <p id="borderland-pts">0 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./elements.js"></script>
+        <script src="./helpers.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html> 
